@@ -54,7 +54,7 @@ npm install @reduxjs/toolkit
 npm install react-redux
 
 ```
-## Link To Hosted Website
+## Link To The Hosted Website
 
 ```bash
 
