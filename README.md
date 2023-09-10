@@ -54,6 +54,13 @@ npm install @reduxjs/toolkit
 npm install react-redux
 
 ```
+## Link To Hosted Website
+
+```bash
+
+https://blueskript-assignment-2-one.vercel.app/
+
+```
 
 
 ## TASKS IMPLEMENTED
