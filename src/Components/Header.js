@@ -23,7 +23,7 @@ function Header() {
             <div className=' flex flex-col w-full h-[200px] '>
                 <div className='w-[300px] mx-[auto]'>
 
-                    <h1 className="text-[40px] text-[#ca1515] mx-[auto] font-bold'>">Marvel Explorer</h1>
+                    <h1 className="text-[42px] text-[#ca1515] mx-[auto] font-solid'>">Marvel Explorer</h1>
                 </div>
 
 

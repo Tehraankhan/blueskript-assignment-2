@@ -20,7 +20,7 @@ export default function Comicview() {
 
 
             <div className=' w-full mx-[auto] md:w-[1050px] md:mx-[auto]'>
-                <button className='text-[yellow] ' onClick={() => { navigate(-1) }}><i className="fa-solid fa-arrow-left " style={{ color: '#ffdd00' }}></i>back</button>
+                <button className='text-[yellow] ' onClick={() => { navigate(-1) }}><i className="fa-solid fa-arrow-left mr-[4px]" style={{ color: '#ffdd00' }}></i>back</button>
                 {data.map((elem) => {
                     return (
                         <>

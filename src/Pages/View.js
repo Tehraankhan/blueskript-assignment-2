@@ -23,7 +23,7 @@ export default function View() {
 
 
             <div className=' w-full mx-[auto] md:w-[1050px] md:mx-[auto]'>
-                <button className='text-[yellow] ' onClick={() => { navigate(-1) }}><i className="fa-solid fa-arrow-left " style={{ color: '#ffdd00' }}></i>back</button>
+                <button className='text-[yellow] ' onClick={() => { navigate(-1) }}><i className="fa-solid fa-arrow-left mr-[4px]" style={{ color: '#ffdd00' }}></i>back</button>
                 {data.map((elem) => {
                     return (
                         <>
@@ -47,14 +47,14 @@ export default function View() {
 
 
                                 <div className='flex flex-col h-[200px] mt-[20px]'>
-                                    <h1 className='text-[white] text-[30px]'>COMICS <span className='bg-[#fdfd3e] rounded-[5px] text-[black]'>{elem.comics.available}</span></h1>
+                                    <h1 className='text-[white] text-[30px]'>COMICS <span className='px-[10px]  bg-[#fdfd3e] rounded-[20px] text-[black]'>{elem.comics.available}</span></h1>
 
                                     <div className='h-[100px] overflow-y-auto'>
                                         {
                                             comic.map((elem1) => {
                                                 return (<>
 
-                                                    <h1 className='text-[white] text-[20px]'>{elem1.name}</h1>
+                                                    <h1 className='text-[#a1a1a1] text-[20px]'>{elem1.name}</h1>
 
                                                 </>)
                                             })
@@ -63,7 +63,7 @@ export default function View() {
 
                                 </div>
                                 <div className='flex flex-col h-[200px] mt-[20px]'>
-                                    <h1 className='text-[white] text-[30px]'>STORIES <span className='px-[10px] py-[1px] bg-[#fdfd3e] rounded-[20px] text-[black]'>{elem.stories.available}</span></h1>
+                                    <h1 className='text-[white] text-[30px]'>STORIES <span className='px-[10px]  bg-[#fdfd3e] rounded-[20px] text-[black]'>{elem.stories.available}</span></h1>
 
                                     <div className='h-[100px] overflow-y-auto'>
                                         {
@@ -79,14 +79,14 @@ export default function View() {
 
                                 </div>
                                 <div className='flex flex-col h-[200px] mt-[20px]'>
-                                    <h1 className='text-[white] text-[30px]'>SERIES <span>{elem.series.available}</span></h1>
+                                    <h1 className='text-[white] text-[30px]'>SERIES <span className='px-[10px]  bg-[#fdfd3e] rounded-[20px] text-[black]'>{elem.series.available}</span></h1>
 
                                     <div className='h-[100px]  overflow-y-auto '>
                                         {
                                             series.map((elem1) => {
                                                 return (<>
 
-                                                    <h1 className='text-[white] text-[20px]'>{elem1.name}</h1>
+                                                    <h1 className='text-[#a1a1a1] text-[20px]'>{elem1.name}</h1>
 
                                                 </>)
                                             })
